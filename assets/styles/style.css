@@ -1,0 +1,916 @@
+@import url(./fonts.css);
+*{
+    box-sizing: border-box;
+}
+* a{
+    text-decoration: none;
+}
+* input, select{
+    border: none;
+    outline: none;
+}
+body{
+    background-size: cover;
+    margin: 0;
+    background-color: #141414
+}
+header{
+    margin: 0 auto;
+    width: 1550px;
+    
+}
+.container{
+    width: 1260px;
+    margin: 0 auto;
+}
+.section-main .container .navigation{
+    padding: 30px 0px 30px 0px;
+}
+.profile i{
+    margin-top: 18px;
+    color: black;
+}
+.right{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.right .he{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.nav-row .right a{
+    font-family: GolosR;
+    color: white;
+    margin-left: 10px;
+
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #f1f4f8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-row .left{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-row .left a{
+    font-family: GolosR;
+   
+    color: white;
+    margin-left: 30px;
+    
+}
+.nav-row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.neznakomec{
+    background-image: url(../img/кудрявыймен.jpg);
+    background-size: cover;
+    width: 1250px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    
+}
+.neznakomec h1{
+    font-family: GolosB;
+    font-weight: 800;
+    font-size: 55px;
+    margin: 0;
+    color: white;
+}
+.neznakomec .title p{
+    font-family: GolosR;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+    color: #919190;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.neznakomec .title p .t1 {
+    font-family: GolosD;
+    color: white;
+    font-size: 1rem;
+    padding-right: 7px;
+}
+.neznakomec .title p .t2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.neznakomec .title p .t3 {
+    margin-left: 7px;
+    border: 1px solid #919190;
+    border-radius: 3px;
+    padding: 3px;
+}
+.neznakomec .pp p{
+    font-family: GolosR;
+    font-weight: 500;
+    margin: 0;
+    font-size: 17px;
+    color: #c5c5c5;
+}
+.haract{
+    display: flex;
+}
+.neznakomec .haract p{
+    font-family: GolosR;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+    color: white;
+    margin: 10px 10px 10px 0px;
+}
+.neznakomec .title{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 120px;
+    margin-left: 60px;
+    flex-direction: column;
+}
+.title .knopki{
+    padding-top: 70px;
+}
+.title a{
+    padding: 18px 30px;
+    border-radius: 10px;
+    background-color: #2a59eb;
+    outline-offset: 4px;
+    font-family: GolosR;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+   
+}
+main{
+    margin: 0 auto;
+  
+    background-color: #141414;
+}
+.cards-cat{
+    display: flex;
+    justify-content: space-between;
+}
+.title-cat h2{
+    font-family: GolosD;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 25px;
+    color: white;
+}
+.section-rek{
+    padding-top: 100px;
+}
+.section-rek .title-cat{
+    display: flex;
+    justify-content: flex-start;
+}
+.section-rek .mini-item-row{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 320px 320px 320px 320px;
+    width: 1280px;
+    margin: 0px 0 70px 0;
+}
+.section-rek .container .rek{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.mini-item-row .mini-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    border-radius: 5px;
+    width: 110%;
+   
+}
+.mini-item .mini-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 0px;
+    margin: 10px 0px 10px 0px;
+}
+.mini-item img{
+    margin-top: 15px;
+}
+.mini-item h3{
+    font-family: GolosR;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+.mini-item p{
+    font-family: GolosR;
+    font-weight: 600;
+    font-size: 16px;
+  
+    color: #919190;
+}
+.section-kurs button{
+    margin-left: 37%;
+}
+
+.kosmos{
+    background-image: url(../img/космос.jpg);
+    background-size: cover;
+    width: 1250px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.kosmos .title{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 60px;
+    flex-direction: column;
+}
+.kosmos h1{
+    font-family: GolosB;
+    font-weight: 800;
+    font-size: 55px;
+    color: white;
+    margin: 0;
+    padding-bottom: 13px;
+}
+.kosmos p{
+    font-family: GolosR;
+    font-weight: 500;
+   
+    margin: 0;
+    font-size: 17px;
+    color: #c5c5c5;
+}
+.kosmos .title .knopki {
+    padding-top: 60px;
+}
+
+
+.collection{
+
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.collection h2{
+    font-family: ManropeS;
+    font-weight: 800;
+    font-size: 45px;
+    margin: 0;
+    color: #07172e;
+    margin-top: 120px;
+}
+.collection p{
+    font-family: ManropeS;
+    font-weight: 550;
+    font-size: 14pt;
+    color: #3c4148;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.collection a{
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+    font-family: ManropeS;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.title-new{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.title-new h2{
+    font-family: NeutralFace;
+    margin: 0;
+    font-size: 60pt;
+}
+
+.title-new h2:nth-child(2){
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    margin-top: 10px;
+}
+.section-nedel{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-nedel{
+    padding-bottom: 80px;
+}
+   
+.bessonnica{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nedel {
+    background: linear-gradient(to right, #ff512f, #f09819);
+    border-radius: 50px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nedel p{
+    color: white;
+    font-family: GolosB;
+    font-size: 12px;
+}
+.bessonnica .text-block .text-title h1{
+    font-family: GolosB;
+    font-weight: 800;
+    font-size: 55px;
+    margin: 0;
+    color: white;
+    padding-top: 10px;
+}
+.bessonnica .text-block .text-title p{
+    font-family: GolosR;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+    color: #919190;
+}
+.bessonnica .text-block .text-title .mini-text p{
+    font-family: GolosR;
+    font-weight: 500;
+    
+    margin: 0;
+    font-size: 17px;
+    color: #c5c5c5;
+}
+.text-title p .t1{
+    font-family: GolosD;
+    color: white;
+    font-size: 1rem;
+    padding-right: 7px;
+}
+.text-title p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Gol Reg';
+    color: #919190;
+    font-size: 0.9rem;
+}
+.text-title p .t3{
+    margin-left: 7px;
+    border: 1px solid #919190;
+    border-radius: 3px;
+    padding: 3px;
+}
+.text-title p .t2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ .knopki{
+    padding-top: 30px;
+}
+.knopki .k1 img{
+    margin-right: 5px;
+}
+.knopki .k2 img{
+    margin-right: 5px;
+}
+.knopki .k1{
+    padding: 15px 40px 15px 40px;
+    background: linear-gradient(90deg, #0553d7,#4c6efa, #6eaffc);
+    border-radius: 7px;
+    margin-right: 15px;
+}
+ .knopki .k2{
+    padding: 17px 25px 17px 25px;
+    background: linear-gradient(90deg, #0e1828, #242632);
+    border-radius: 7px;
+    margin-right: 15px;
+}
+.knopki .k3{
+    padding: 17px 20px 17px 20px;
+    background: linear-gradient(90deg, #0e1828, #242632);
+    border-radius: 7px;
+}
+
+.opisanie{
+    padding-top: 60px;
+}
+.opisanie .op{
+    padding-bottom: 30px;
+}
+.op a{
+    font-family: GolosB;
+    font-size: 0.9rem;
+    color: #6c6c6c;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    margin-right: 25px;
+}
+.op a:hover{
+    color: #f0f0f0;
+    border-bottom: 2px solid #6fb1fc;
+    padding-bottom: 3px;
+    transition: .3s;
+}
+.opisanie p{
+    font-family: GolosR;
+    font-weight: 500;
+ 
+    margin: 0;
+    font-size: 17px;
+    color: #c5c5c5;
+}
+.photo-block{
+    padding-left: 70px;
+}
+.photo-block img {
+    border-radius: 10px;
+}
+.up {
+    padding-bottom: 27px;
+}
+
+.bes3 {
+    padding-right: 27px;
+}
+.bes1 {
+    padding-right: 27px;
+}
+.men img{
+    height: 420px;
+    border-radius: 20px;
+
+}
+.men{
+    padding-bottom: 40px;
+}
+.knopki a{
+    outline-offset: 4px;
+    font-family: GolosR;
+    color: white;
+    font-weight: 600;
+    margin: 0px 10px 0px 0px;
+}
+
+.about-us{
+    background-color: #242424;
+    padding-bottom: 15px;
+}
+.all-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-block-about h2{
+    color: white;
+    font-family: GolosB;
+    font-size: 35px;
+
+    margin-top: 80px;
+}
+.text-block-about p{
+    font-family: GolosR;
+    color: white;
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 17px;
+    color: #c5c5c5;
+}
+.mln{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.sorok{
+    flex-direction: column;
+}
+.mln h3{
+    color: #0052d4;
+    font-family: GolosB;
+    font-size: 44px;
+    margin: 0;
+}
+.sorok p{
+    margin: 0;
+   
+}
+.sto p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.projects p{
+    margin: 0;
+   
+}
+.prosmotr p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.form-pod h2{
+    color: white;
+    font-size: 48px;
+    font-family: GolosB;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+.form-pod p{
+   
+    font-family: GolosR;
+    font-size: 17px;
+    color: #c5c5c5;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.forms-podpiska{
+    width: 100%;
+    margin-top: 30px;
+}
+form input{
+    background: none;
+    border: 1px solid #979797;
+    margin-bottom: 15px;
+}
+form label{
+    color: #c5c5c5;;
+    font-family: GolosR;
+    margin-bottom: 10px;
+}
+.name-phone{
+    display: flex;
+    flex-direction: column;
+
+}
+.name-phone input{
+    height: 50px;
+}
+.vibor{
+    width: 130%;
+}
+.sogl{
+    width: 130%;
+}
+.sogl input{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.stoimost{
+    display: flex;
+    margin-left: 300px;
+}
+.block-stoimost{
+    width: 270px;
+    height: 170px;
+    background: linear-gradient(90deg, #121d31, #121d31, #222b37);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.all-form{
+    display: flex;
+    margin-bottom: 100px;
+}
+.stoimost p{
+    color: white;
+
+}
+.stoimost h3{
+    color: #7aadff;
+    font-family: GolosB;
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.all-fut{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: #242424;
+}
+.all-fut p{
+    color: #c5c5c5;
+    font-family: GolosR;
+
+    margin-right: 10px;
+}
+.text-fut{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;    
+}
+.all-fut a{
+    color: #c5c5c5;
+    font-family: GolosR;
+    text-decoration: underline;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons img{
+    margin-right: 15px;
+}
+
+
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 100%;
+    }
+    .navigation {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    } 
+    .navigation .nav-row{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+    .navigation .nav-row img{
+        width: 30%;
+    }
+    .navigation .nav-row a{
+        padding-left: 5px;
+    }
+    
+    .right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .right a{
+        font-size: 10px;
+    }
+    .right img{
+        width: 30%;
+    }
+    .neznakomec h1{
+        font-size: 44px;
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+    .title{
+        padding-left: 22px;
+    }
+    .title p{
+        font-size: 14px;
+        margin-right: 7px;
+    }
+    .pp{
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .knopki{
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .knopki a{
+        padding: 10px;
+        font-size: 12px;
+        font-family: GolosD;
+    }
+    .section-rek h2{
+        font-size: 30px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .mini-item-row .mini-item img{
+        width: 100%;
+    }
+    .mini-item-row{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .mini-item-row .mini-item p{
+        margin-bottom: 20px;
+    }
+    .kosmos h1{
+        padding-left: 40px;
+        padding-top: 60px;
+        font-size: 38px;
+    }
+    .kosmos p{
+        padding-left: 40px;
+        font-size: 14px;
+    }
+    .kosmos a{
+        margin-left: 40px;
+        font-size: 14px;
+        font-family: GolosD;
+        width: 40%;
+    }
+    .nedel{
+        margin-left: 10px;
+        width: 35%;
+        margin-top: 10px;
+        display: flex;
+        
+    }
+    .nedel p{
+        font-size: 12px;
+    }
+    .bessonnica .text-block{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .photo-block .men{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .text-title h1{
+        margin-left: 10px;
+        font-size: 48px;
+    }
+
+    .text-title p{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+   .mini-text{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .text-block{
+        margin-left: 20px;
+    }
+    .price h1{
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+    .knopki{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .knopki a{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .opisanie{
+        display: flex;
+        flex-direction: column;
+    }
+    .opisanie{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .opisanie p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .opisanie .op{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .photo-block .up{
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        margin-left: 10px;
+    }
+    .photo-block .down{
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        margin-left: 10px;
+    }
+    .photo-block img{
+        width: 47%;
+    }
+    .photo-about img{
+        width: 80%;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .all-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-block-about h2{
+        font-size: 23px;
+
+        text-align: center;
+    }
+    .text-block-about{
+        margin-left: 10px;
+    }
+    .text-block-about p{
+        font-size: 14px;
+    }
+    .mln{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .left-sector{
+        display: flex;
+        justify-content: space-between;
+    }
+    .left-sector .sto{
+        margin-left: 20px;
+    }
+    .right-sector{
+        display: flex;
+        justify-content: space-between;
+    }
+    .prosmotr{
+        margin-left: 20px;
+    }
+    .all-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .forms-podpiska{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .stoimost{
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .one-two{
+        display: flex;
+        justify-content: center;
+    }
+    .three-four{
+        display: flex;
+        justify-content: center
+    }
+    .block-stoi{
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 70%;
+    }
+    .all-fut p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .all-fut a{
+        font-size: 12px;
+        text-align: center;
+    }
+    .millions h3{
+        font-size: 40px;
+    }
+    .form-pod p{
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    .form-pod h2{
+        font-size: 30px;
+        text-align: center;
+    }
+}
